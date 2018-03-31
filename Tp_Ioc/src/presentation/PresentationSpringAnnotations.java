@@ -9,6 +9,7 @@ import metier.IMetier;
 public class PresentationSpringAnnotations {
 	
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		ApplicationContext springContext = 
 				new AnnotationConfigApplicationContext("dao","metier");
 		

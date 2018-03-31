@@ -8,6 +8,7 @@ import metier.IMetier;
 public class PresentationSpringMapping {
 	
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		ApplicationContext springContext = 
 				new ClassPathXmlApplicationContext("config.xml");
 		
